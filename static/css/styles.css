@@ -1,0 +1,166 @@
+body
+{
+	background: #E3E6E3;
+}
+.MainMenu
+{
+	background: #1E1E1E;
+	text-align: center;
+	height: 3.75em;
+	position: fixed;
+	right: 0;
+	left: 0;
+	top: 0;
+
+}
+.MainMenu-list
+{
+	padding: 0;
+	margin: 0;
+}
+.MainMenu-item
+{
+	display: inline-block;
+}
+.MainMenu-link
+{
+	color: #00DBFF;
+	text-decoration: none;
+	line-height: 3.75em;
+	margin: 1.5em;
+}
+.Header
+{
+	margin-top: 3.75em ;
+	background-image: url("../img/bg_header2.jpg");
+	height: 350px;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+	padding: 1em;
+}
+
+.Header-imagen
+{
+	border: 5px solid white;
+	border-radius: 100%;
+}
+
+.Header-imagenDescription
+{
+	margin-top: 1em;
+}
+
+.Header-imagenContainer
+{
+	margin: 0;
+}
+.Header-link,
+.Header-name
+{
+	color: white;
+}
+
+.Header-link
+{
+	text-decoration: none;
+	font-size: 2.2em;
+	font-weight: bold;
+}
+
+.Header-name
+{
+	font-size: 1.5em;
+	font-weight: 300;
+	margin: 0;
+}
+
+.u-title
+{
+	border-bottom: #0CF dashed 2px;
+	border-top: #0CF dashed 2px;
+	color: #00C0FF;
+	font-size: 1.75em;
+	font-weight: 500;
+	text-align: center;	
+	padding-bottom: .5em;
+	padding-top: .5em;
+
+}
+
+.Profile
+{
+	text-align: center;
+}
+
+.Profile-link
+{
+	color: white;
+	background: orange;
+	padding: .5em 1em;
+	text-decoration: none;
+	font-weight: bold;
+	border-radius: 2em;
+	margin-right: .5em;
+}
+
+.Work
+{
+	text-align: center;
+}
+
+.Work-item
+{
+	display: inline-block;
+	margin-right:.8em;
+	margin-bottom: .8em;
+}
+.Work-imageContainer
+{
+	margin: 0;
+}
+
+.Work-description
+{
+	color: #515151
+	font-size: 1.1em;
+	font-style: italic;
+}
+
+.Footer
+{
+	background-image: url(../img/footer.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;	
+}
+.Footer-form
+{
+	text-align: center;
+}
+
+.Footer-formInput,
+.Footer-formText
+{
+	border: none;
+	display: block;
+	border-radius: 2em;
+	padding: .4em .5em;
+	margin: 0 auto .5em;
+
+}
+.Footer-formText
+{
+	resize:none;
+}
+.Footer-formButton
+{
+	margin-left: 4em;
+	background: orange;
+	color: white;
+	border-radius: 1em;
+	padding: .5em;
+	border: none;
+
+}
